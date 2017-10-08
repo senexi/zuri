@@ -1,0 +1,85 @@
+{"PolicyPeriod": {
+
+   "EffectiveDatedFields":    {
+
+      "RateType_ZDE": "tc_normal",
+
+      "TermType_ZDE": "tc_two_years"
+
+   },
+
+   "Policy":    {
+
+      "ProductCode": "NPLPL_NewPersonalProduct",
+
+      "Account": {"ProducerCodes": [{"ProducerCode": {"Code": "382493853"}}]}
+
+   },
+
+   "TermEndDate_ZDE": "2019-09-28",
+
+   "UWCompanyCode": "tc_21",
+
+   "HALine": {"CoverageParts_ZDE": [   {
+
+      "ScheduleCoverages": [      {
+
+         "ScheduledItems": [{"ScheduledItemColumns": [         {
+
+            "Name": "Race_SchedItem",
+
+            "ValueAsString": "Arab Horse"
+
+         }]}],
+
+         "Pattern": {"PublicID": "HA_THVHorseCov"},
+
+         "CovTerms":          [
+
+                        {
+
+               "ValueAsString": "tc_no_benefit_reduction",
+
+               "Pattern": {"PublicID": "HA_THVHorseBenefitReductionNPLPLTerm"}
+
+            },
+
+                        {
+
+               "ValueAsString": "250",
+
+               "Pattern": {"PublicID": "HA_THVHorseBenefitReductionLossAmmountTerm"}
+
+            },
+
+                        {
+
+               "ValueAsString": "true",
+
+               "Pattern": {"PublicID": "HA_THVHorseSharingSyncTerm"}
+
+            },
+
+                        {
+
+               "ValueAsString": "Mike Mueller",
+
+               "Pattern": {"PublicID": "HA_THVHorseSharingName1SyncTerm"}
+
+            }
+
+         ]
+
+      }],
+
+      "CoverageConcept": "tc_bronze",
+
+      "Subline": "tc_ha_thv",
+
+      "@odata.type": "#zde.entities.GLTHVCovPart_ZDE"
+
+   }]},
+
+   "PolicyStartDate": "2017-09-28"
+
+}}

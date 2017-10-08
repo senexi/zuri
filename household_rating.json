@@ -1,0 +1,105 @@
+{
+
+  "PolicyPeriod" : {
+
+    "EffectiveDatedFields" : {
+
+      "PaymentPeriod_ZDE" : "tc_yearly",
+
+      "RateType_ZDE" : "tc_normal"
+
+    },
+
+    "PolicyStartDate" : "2017-11-01",
+
+    "TermEndDate_ZDE" : "2018-11-01",
+
+    "Policy" : {
+
+      "ProductCode" : "NPLPL_NewPersonalProduct",
+
+      "Account" : {
+
+        "ProducerCodes" : [ {
+
+          "ProducerCode" : {
+
+            "Code" : "382493853"
+
+          }
+
+        } ]
+
+      }
+
+    },
+
+    "GEBLine" : {
+
+      "GEBRiskLocations" : [ {
+
+        "Location" : {
+
+          "PostalCode" : "01067"
+
+        },
+
+        "GEBCoverables" : [ {
+
+          "CoverageConcept" : "tc_bronze",
+
+          "ElementaryRiskSelection" : false,
+
+          "FireRiskSelection" : true,
+
+          "GaleHailRiskSelection" : true,
+
+          "SurgeRiskSelection" : true,
+
+          "TapWaterRiskSelection" : true,
+
+          "BenefitReduction" : "tc_250_eur",
+
+          "Building" : {
+
+            "BuildingType_ZDE" : "tc_one_two_familyhome",
+
+            "BuildingSubtype_ZDE" : "tc_ResBuilding",
+
+            "UsableAreaBuildingAdd_ZDE" : 50,
+
+            "BuildingUnderGoodCondition_ZDE" : true,
+
+            "LivingAreaCalcType_ZDE" : "tc_construction_documents",
+
+            "RoofType" : "tc_Class_R_N_ZDE",
+
+            "BasementExists_ZDE" : true,
+
+            "NumStories" : 3,
+
+            "MoreThan50PercUnoccupied_ZDE" : false,
+
+            "PermanentlyOccupied_ZDE" : true,
+
+            "LivingAreaOffice_ZDE" : 200,
+
+            "OutsideWall_ZDE" : "tc_Class_R_ZDE",
+
+            "YearBuilt" : 2017,
+
+            "BuildingUnderConstruction_ZDE" : false
+
+          },
+
+          "Coverages" : [ ]
+
+        } ]
+
+      } ]
+
+    }
+
+  }
+
+}
